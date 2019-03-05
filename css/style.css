@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  z-index:9;
+  text-indent:5%;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+#u97{
+	z-index:-1;
+  top: -700px;
+	height:638px;
+	background-color:#FF0000;
+	border-radius:50%;
+	position:relative;
+	width:638px;
+	margin-left:43.4%;
+	left:277px;
+	}
